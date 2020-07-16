@@ -712,9 +712,6 @@ SECTIONS
    }
    END_NOLOAD(framebuffers)
 
-   __expansionRamStart = 0x80400000;
-   ASSERT((. <= __expansionRamStart), "Error: RDRAM expanded into Expansion RAM, despite Expansion RAM not being defined.")
-
 
    BEGIN_SEG(entry, 0x10000000)
    {
