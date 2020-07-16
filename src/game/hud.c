@@ -532,7 +532,7 @@ void render_hud(void) {
             render_hud_timer();
         }
 
-        if (hudDisplayFlags & HUD_DISPLAY_FLAG_TIME_TRIAL_TIMER && configHUD) {
+        if (hudDisplayFlags & HUD_DISPLAY_FLAG_TIME_TRIAL_TIMER) {
             time_trial_render_hud_timer();
         }
     }
