@@ -44,7 +44,7 @@
  * importing large custom content.
  */
 
-#define SEG_BUFFERS      0x8004C000 // 0x0085000 in size
+#define SEG_BUFFERS      0x8004C000 // 0x0495000 in size; was 0x8005C000
 #define SEG_MAIN         0x804E1000 // 0x1328000 in size; was 0x800E1000
 #define SEG_ENGINE       0x80613800 // 0x0017000 in size; was 0x80213800
 #define SEG_FRAMEBUFFERS 0x8062A800 // 0x0070800 in size; was 0x8022A800
